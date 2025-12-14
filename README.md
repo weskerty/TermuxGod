@@ -31,6 +31,9 @@ Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
 <details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
 
 # Mas Utilidades 
+Una lista que encontre, pero no Probe.
+
+
 #### [Utils Commands](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
 > Comandos Utiles en Termux
 
@@ -40,7 +43,16 @@ Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
 #### [kmedya](https://gist.github.com/kmedya-dev/75262f4bcb8592c2ef3a4c32f5b96b5b?utm_source=chatgpt.com#termux-development-setup)
 > Termux Development Setup Scripts
 
+# [Termux Login Security Script 🔒](https://github.com/BuriXon-code/termux-login?tab=readme-ov-file#termux-login-security-script-)
+> Contraseña Huella en Termux 
 
+# [GCloud SDK for Termux ](https://github.com/notsopreety/gcloud-termux?tab=readme-ov-file#gcloud-sdk-installer-for-termux-)
+> A Bash script to automate the installation and setup of Google Cloud SDK on Termux
+
+# [Uptodown Store on Termux](https://github.com/KebabLord/apk_dl.sh?tab=readme-ov-file#preview)
+> Busca e Instala Apks 
+
+# [MC Server](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
 
 # Repositorios Extra
 #### [TermuxVoid](https://github.com/termuxvoid/repo?tab=readme-ov-file#termuxvoid-apt-repository)
