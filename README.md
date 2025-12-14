@@ -30,8 +30,15 @@ Script to retransmit an external server into TermuX11. See External Server (not 
 
 </tr> </table> </details>
 
-Requires installing TermuxX11
-Add the x11-repo server and install the package:
+> [!NOTE]
+> Need Install: [Termux:X11](https://github.com/termux/termux-x11/releases)
+> Add the x11-repo server and install `termux-x11-nightly`
+```
+pkg install x11-repo
+pkg update
+pkg i termux-x11-nightly
+
+```
 
 ## AllDeps
 
@@ -75,7 +82,7 @@ An interesting list that I haven't tested yet.
 #### [MC Server](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
 
 # Extra Repos
-### [TUR Repo Oficial](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
+### [TUR Repo Oficial](https://github.com/termux-user-repository/tur?tab=readme-ov-file#termux-user-repository-tur)
 > Este repositorio es Similar a [ChaoticAUR](https://aur.chaotic.cx/) de ArchLinux, encontraras paquetes exoticos mantenidos por la comunidad.
 
 
