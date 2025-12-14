@@ -8,7 +8,11 @@ Script que automatiza los permisos para que Termux no sea cerrado por el Sistema
 # SSHX - Reenvio x11
 Script para Retransmitir un servidor Externo en TermuX11. Ver Servidor Externo (No servidor interno)
 
-<details> <summary>🌅Video🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /></tr> </table> </details>
+<details> <summary>🌅Video🖼️</summary> <table> <tr> <td>
+
+https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada
+
+</tr> </table> </details>
 
 Requiere Instalar TermuxX11 
 Agregar el servidor x11-repo e instalar el paquete:
