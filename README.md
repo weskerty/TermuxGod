@@ -15,3 +15,8 @@ Script para Retransmitir un servidor Externo en TermuX11. Ver Servidor Externo (
 Instala dependencias de compilacion y repositorio de comunidad (Similar a ChaoticAUR) 
 Util para instalar SQlite3 en NodeJS NPM
 - [ ] https://github.com/TryGhost/node-sqlite3/issues/1534
+
+# PC - Termux PC
+Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
+<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
+
