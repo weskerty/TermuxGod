@@ -1,40 +1,56 @@
-# NoKill - No Kill Termux by System
-Script que automatiza los permisos para que Termux no sea cerrado por el Sistema.
-[Fuente](https://gist.github.com/kairusds/1d4e32d3cf0d6ca44dc126c1a383a48d)
+<div style="text-align:center;"
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1a23e163-4c00-49e5-bccb-24d52ec8d65c" alt="Termuxito" width="100">
+
+<h1 align="center">Termux Good</h1>
+Scripts Automaticos y Utilidades 
+
+[![en](https://img.shields.io/badge/English-red.svg)](README.md)
+[![pt-br](https://img.shields.io/badge/Português-pt--br-green.svg)](README.pt-br.md)
+[![es](https://img.shields.io/badge/Espa%C3%B1ol-es-yellow.svg)](README.es.md)
+
+</div>
+
+
+## NoKill - No Kill Termux by System
+
+Script that automates permissions so Termux is not killed by the System.
+[Source](https://gist.github.com/kairusds/1d4e32d3cf0d6ca44dc126c1a383a48d)
 
 <details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> </details>
 
+## SSHX - X11 forwarding
 
-# SSHX - Reenvio x11
-Script para Retransmitir un servidor Externo en TermuX11. Ver Servidor Externo (No servidor interno)
+Script to retransmit an external server into TermuX11. See External Server (not local server)
 
 <details> <summary>🌅Video🖼️</summary> <table> <tr> <td>
 
-https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada
+[https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada](https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada)
 
 </tr> </table> </details>
 
-Requiere Instalar TermuxX11 
-Agregar el servidor x11-repo e instalar el paquete:
+Requires installing TermuxX11
+Add the x11-repo server and install the package:
 
+## AllDeps
 
-# AllDeps
-Instala dependencias de compilacion, repositorio de comunidad (Similar a ChaoticAUR) y Utilidades Extra. Todo para evitar el dolor de cabeza de Dependencias faltantes.
-Util para instalar SQlite3 en NodeJS NPM
-- [ ] https://github.com/TryGhost/node-sqlite3/issues/1534
+Installs build dependencies, community repository (similar to ChaoticAUR), and extra utilities. Everything to avoid the headache of missing dependencies.
+Useful to install SQLite3 for NodeJS NPM
+
+* [ ] [https://github.com/TryGhost/node-sqlite3/issues/1534](https://github.com/TryGhost/node-sqlite3/issues/1534)
 
 > [!NOTE]
-> Hara que Termux Pese 5GB en Almacenamiento.
+> Will make Termux take 5GB of storage.
 
-# PC - Termux PC
-Instala un entorno de escritorio para usar ek telefono como PC [Fuente]()
+## PC - Termux PC
+
+Installs a desktop environment to use the phone as a PC [Source]()
+
 <details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
 
+# More Utilities
 
-
-
-# Mas Utilidades 
-Una lista Interesante que aun no Probe.
+An interesting list that I haven't tested yet.
 
 
 #### [Utils Commands](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
@@ -57,7 +73,7 @@ Una lista Interesante que aun no Probe.
 
 #### [MC Server](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
 
-# Repositorios Extra
+# Extra Repos
 ### [TUR Repo Oficial](https://github.com/denizxss/termux-minecraft-server-script?tab=readme-ov-file#termux-minecraft-server-script)
 > Este repositorio es Similar a [ChaoticAUR](https://aur.chaotic.cx/) de ArchLinux, encontraras paquetes exoticos mantenidos por la comunidad.
 
@@ -67,5 +83,12 @@ Una lista Interesante que aun no Probe.
 
 #### [ivam3](https://github.com/T4P4N/Awesome-Termux?tab=readme-ov-file#introduction)
 > Herramientas de Seguridad 2
+
+
+
+
+
+
+
 
 
