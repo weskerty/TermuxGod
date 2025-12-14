@@ -10,6 +10,9 @@ Script para Retransmitir un servidor Externo en TermuX11. Ver Servidor Externo (
 
 <details> <summary>🌅Video🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /></tr> </table> </details>
 
+Requiere Instalar TermuxX11 
+Agregar el servidor x11-repo e instalar el paquete:
+
 
 # AllDeps
 Instala dependencias de compilacion y repositorio de comunidad (Similar a ChaoticAUR) 
