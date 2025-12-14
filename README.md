@@ -31,12 +31,11 @@ Script to retransmit an external server into TermuX11. See External Server (not 
 </tr> </table> </details>
 
 > [!NOTE]
-> Need Install: [Termux:X11](https://github.com/termux/termux-x11/releases)
-> Add the x11-repo server and install `termux-x11-nightly`
+> Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
+> Add the x11-repo Utility in Termux;
 ```
 pkg install x11-repo
-pkg update
-pkg i termux-x11-nightly
+apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 ```
 
