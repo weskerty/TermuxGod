@@ -11,7 +11,7 @@ printf "%s\n%s" "$U" "$IP" >"$SF"
 pkill -f termux.x11 2>/dev/null
 pulseaudio -k 2>/dev/null
 pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1
-trap 'pulseaudio -k;pkill -f termux.x11' EXIT
+
 export XDG_RUNTIME_DIR=$TMPDIR
 termux-x11 :0 >/dev/null &
 sleep 3
