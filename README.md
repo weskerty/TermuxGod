@@ -18,7 +18,7 @@ Automated Scripts and Utilities for Termux
 Script that automates permissions so Termux is not killed by the System.
 [Source](https://gist.github.com/kairusds/1d4e32d3cf0d6ca44dc126c1a383a48d)
 
-<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> 
+<details> <summary>🌅More Info️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> 
 
 ### Run Script:
 ```
@@ -33,7 +33,7 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 Script to retransmit an external server into TermuX11. See External Server (not local server)
 
-<details> <summary>🌅Video🖼️</summary> <table> <tr> <td>
+<details> <summary>🌅More Info</summary> <table> <tr> <td>
 
 [https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada](https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada)
 
@@ -85,7 +85,8 @@ Scripts Need Root
 
 
 
-<details> 
+
+</details> 
 
 
 # More Utilities
