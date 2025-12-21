@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1a23e163-4c00-49e5-bccb-24d52ec8d65c" alt="Termuxito" width="100">
 <h1 align="center">Termux Good</h1>
-Scripts Automaticos y Utilidades 
+Automated Scripts and Utilities for Termux
 
 [![en](https://img.shields.io/badge/English-red.svg)](README.md)
 [![pt-br](https://img.shields.io/badge/Português-pt--br-green.svg)](README.pt-br.md)
@@ -18,7 +18,16 @@ Scripts Automaticos y Utilidades
 Script that automates permissions so Termux is not killed by the System.
 [Source](https://gist.github.com/kairusds/1d4e32d3cf0d6ca44dc126c1a383a48d)
 
-<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> </details>
+<details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> 
+
+### Run Script:
+```
+pkg install x11-repo
+apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
+
+```
+
+</details>
 
 ## SSHX - X11 forwarding
 
@@ -28,17 +37,21 @@ Script to retransmit an external server into TermuX11. See External Server (not 
 
 [https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada](https://github.com/user-attachments/assets/f5d4b5b2-47d7-4be0-9f1c-213bc0c47ada)
 
-</tr> </table> </details>
+</tr> </table> 
 
 > [!NOTE]
 > Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
-> 
-> And the x11-repo Utility in Termux;
+
+### Run Script:
 ```
 pkg install x11-repo
 apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 ```
+
+</details>
+
+
 
 ## AllDeps
 
@@ -50,11 +63,30 @@ Useful to install SQLite3 for NodeJS NPM
 > [!NOTE]
 > Will make Termux take 5GB of storage.
 
+### Run Script:
+```
+pkg install x11-repo
+apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
+
+```
+
 ## PC - Termux PC
 
 Installs a desktop environment to use the phone as a PC [Source]()
 
 <details> <summary>🌅ScreenShots🖼️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> </details>
+
+# Root Scripts
+Scripts Need Root
+<details> <summary>Clic to Show List️</summary>
+
+## [MIUI Unlock BootLoader](https://github.com/offici5l/MiUnlockTool?tab=readme-ov-file#quick-install-androidtermux)
+
+
+
+
+<details> 
+
 
 # More Utilities
 
