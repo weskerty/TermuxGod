@@ -20,14 +20,15 @@ Automated Scripts and Utilities for Termux
 [![es](https://img.shields.io/badge/Espa%C3%B1ol-es-yellow.svg)](README.es.md)
 
 -->
-
+Everyone is welcome to the Telegram Group
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
 
-Everyone is welcome to the Telegram Group
+
 
 </div>
 </br>
 # Install OhMyZsh
+
 ##### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
 This script will install OhMyZsh, add the community repository
 
