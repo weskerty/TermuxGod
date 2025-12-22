@@ -152,7 +152,7 @@ Install xfce
 </br>
 </br>
 
-# Root Scripts
+# ROOT Scripts
 Scripts Need Root
 <details> <summary>Clic to Show List️</summary>
 
@@ -164,6 +164,12 @@ Scripts Need Root
 
 
 </details> 
+
+</br>
+</br>
+
+# Server Scripts 
+
 
 </br>
 </br>
