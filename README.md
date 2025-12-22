@@ -1,3 +1,13 @@
+<!-- ## Name
+<details> <summary>🌅More Info</summary> <table> <tr> <td>
+
+</tr> </table> 
+
+</details>
+-->
+
+
+
 <div style="text-align:center;"
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1a23e163-4c00-49e5-bccb-24d52ec8d65c" alt="Termuxito" width="100">
@@ -11,6 +21,16 @@ Automated Scripts and Utilities for Termux
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=fat&logo=telegram&logoColor=white)](https://t.me/termux24x7/1/124962)
 
 </div>
+
+# Install OhMyZsh
+### Many of the scripts shown here are aliases for convenience, so we recommend installing `OhMyZsh!` first. This will allow you to use the functions easily.
+This script will install OhMyZsh, add the community repository
+
+
+```
+curl -sS https://raw. | bash
+
+```
 
 
 ## NoKill - No Kill Termux by System
@@ -31,7 +51,7 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 ## SSHX - X11 forwarding
 
-Script to retransmit an external server into TermuX11. See External Server (not local server)
+Script to retransmit an external server into Termux:11. See External Server (not local server)
 
 <details> <summary>🌅More Info</summary> <table> <tr> <td>
 
@@ -69,6 +89,20 @@ pkg install x11-repo
 apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 
 ```
+## Gemini on Termux
+<details> <summary>🌅More Info</summary> <table> <tr> <td>
+
+</tr> </table> 
+
+Install:
+```
+curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gemini | bash
+
+```
+[Source](https://github.com/offici5l/termux-utils/blob/main/google/gemini)
+
+
+</details>
 
 ## PC - Termux PC
 
