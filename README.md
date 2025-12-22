@@ -92,6 +92,8 @@ apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
 ## Gemini on Termux
 <details> <summary>🌅More Info</summary> <table> <tr> <td>
 
+https://github.com/user-attachments/assets/2978aaa3-edf5-4a3a-9cd3-4541bab48a16
+
 </tr> </table> 
 
 Install:
