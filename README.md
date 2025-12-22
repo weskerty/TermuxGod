@@ -55,10 +55,15 @@ Script that automates permissions so Termux is not killed by the System.
 
 ### Run Script:
 ```
-pkg install x11-repo
-apt update -y && yes | apt upgrade && pkg install -y termux-x11-nightly
+apt update -y && yes | apt upgrade && pkg install -y android-tools
+curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/NoKill.sh | bash
 
 ```
+
+Enable Developer Options 
+Enable ADB WiFi
+Pair New ADB Device on Code
+
 
 </details>
 
@@ -132,7 +137,7 @@ curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gem
 
 </br>
 
-## PC - Termux PC
+# PC - Termux PC
 Installs a desktop environment to use the phone as a PC [Source](https://github.com/LinuxDroidMaster/Termux-Desktops?tab=readme-ov-file#android-on-linux-termux-x11-desktops)
 </details>
 
@@ -146,7 +151,7 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 ### Install Desktop Enviorment
 <details> <summary>🐭xfce</summary
 
-<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+<table> <tr> <td><img width="400" src="" /> </tr> </table> 
 
 
 ```
@@ -156,7 +161,7 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 
 <details> <summary>🐦LXQt</summary
 
-<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
+<table> <tr> <td><img width="400" src="" /> </tr> </table> 
 </details>
 
 
