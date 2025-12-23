@@ -41,7 +41,7 @@ This script will install OhMyZsh, add the community repository
 
 
 ```
-curl -sS https://raw. | bash
+bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/zsh.sh)
 
 ```
 
@@ -55,15 +55,21 @@ Script that automates permissions so Termux is not killed by the System.
 
 ### Run Script:
 ```
-bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/NoKill.sh)
-
+U1="https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/NoKill.sh";D1="$HOME/scripts";N1="$(basename "$U1")";B1="${N1%.*}";A1="t$(echo "$B1" | tr '[:upper:]' '[:lower:]')";F1="$D1/$N1";mkdir -p "$D1"&&curl -fsSL "$U1" -o "$F1"&&chmod +x "$F1"&&grep -qxF "alias $A1='sh $F1'" "$HOME/.zshrc"||echo "alias $A1='sh $F1'" >>"$HOME/.zshrc"&&sh "$F1"
 
 ```
 
 Enable Developer Options 
+
 Enable ADB WiFi
+
 Pair New ADB Device on Code
 
+Add Port Pair 
+
+Add Port ADB WiFi
+
+Para reutilizar solo escribe tnokill en cualquier momento.
 
 </details>
 
@@ -84,7 +90,7 @@ Script to retransmit an external server into Termux:11. See External Server (not
 
 ### Run Script:
 ```
-
+U1="https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/sshx.sh";D1="$HOME/scripts";N1="$(basename "$U1")";B1="${N1%.*}";A1="t$(echo "$B1" | tr '[:upper:]' '[:lower:]')";F1="$D1/$N1";mkdir -p "$D1"&&curl -fsSL "$U1" -o "$F1"&&chmod +x "$F1"&&grep -qxF "alias $A1='sh $F1'" "$HOME/.zshrc"||echo "alias $A1='sh $F1'" >>"$HOME/.zshrc"&&sh "$F1"
 
 ```
 
@@ -106,7 +112,7 @@ Useful to install SQLite3 for NodeJS NPM
 
 ### Run Script:
 ```
-
+bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/allDeps.sh)
 
 ```
 
