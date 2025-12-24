@@ -168,6 +168,7 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 
 
 ```
+bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/dxfce.sh)
 
 ```
 </details>
@@ -177,7 +178,8 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 <table> <tr> <td><img width="400" src="" /> </tr> </table> 
 </details>
 
-
+#### Run Windows Programs
+[Read Tutorial](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md#-optional-running-windows-programs-on-termux-native-xfce-desktop--mobox-)
 
 
 
