@@ -164,7 +164,7 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 ### Install Desktop Enviorment
 <details> <summary>🐭xfce</summary
 
-<table> <tr> <td><img width="400" src="" /> </tr> </table> 
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/85214dea-cd09-4677-9a4c-5b4593948263" /> </tr> </table> 
 
 
 ```
