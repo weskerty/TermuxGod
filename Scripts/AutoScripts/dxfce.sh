@@ -19,8 +19,11 @@ while true; do
     fi
     sleep 3
 done
+
 mkdir -p /storage/emulated/0/Download/Termux
+
 cd /storage/emulated/0/Download/Termux
+
 wget https://github.com/termux/termux-x11/releases/latest/download/app-universal-debug.apk
 
 
