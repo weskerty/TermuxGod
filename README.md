@@ -151,7 +151,7 @@ curl -sS https://raw.githubusercontent.com/offici5l/termux-utils/main/google/gem
 </br>
 
 # PC - Termux PC
-Installs a desktop environment to use the phone as a PC [Source](https://github.com/LinuxDroidMaster/Termux-Desktops?tab=readme-ov-file#android-on-linux-termux-x11-desktops)
+Installs a desktop environment to use the phone as a PC [Source](https://github.com/sabamdarif/termux-desktop)
 </details>
 
 <details> <summary>🌅More Info</summary>
@@ -159,23 +159,11 @@ Installs a desktop environment to use the phone as a PC [Source](https://github.
 <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f7e4905d-978f-4a4d-9d38-3fd4dcead21e" /> </tr> </table> 
 
 > [!NOTE]
-> All Metods Need Install: [Termux:X11 App](https://github.com/termux/termux-x11/releases)
-
-### Install Desktop Enviorment
-<details> <summary>🐭xfce</summary
-
-<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/85214dea-cd09-4677-9a4c-5b4593948263" /> </tr> </table> 
-
+> All Metods Need Install: [Termux:X11 App](https://github.com/termux/termux-
+```
+bash <(curl -Lf https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/setup-termux-desktop)
 
 ```
-bash -i <(curl -sS https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/dxfce.sh)
-
-```
-</details>
-
-<details> <summary>🐦LXQt</summary
-
-<table> <tr> <td><img width="400" src="" /> </tr> </table> 
 </details>
 
 #### Run Windows Programs
