@@ -1,4 +1,4 @@
-set -e
+
 A1=$HOME
 A2=$A1/android-ndk
 A3=$A2/AndroidNDK
