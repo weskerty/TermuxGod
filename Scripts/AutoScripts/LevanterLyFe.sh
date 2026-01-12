@@ -6,7 +6,7 @@ A4=$A1/levanter
 clear
 echo "Levanter Termux Installer"
 sleep 3
-tprintf 'n\n' | termux-setup-storage
+printf 'n\n' | termux-setup-storage
 termux-wake-lock
 apt-get update
 pkg install -y tur-repo x11-repo
