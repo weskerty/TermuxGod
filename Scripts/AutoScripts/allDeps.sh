@@ -13,6 +13,10 @@ pkg install -y tur-repo x11-repo
 apt-get update
 apt update -y && yes | apt upgrade && pkg install -y python nano clang make git ffmpeg android-tools clang make git ffmpeg nodejs-lts pkg-config libxml2 libxslt matplotlib xorgproto rust binutils wget build-essential libvips python-pip glib termux-services termux-api termux-x11-nightly p7zip
 
+# PIP TUR
+mkdir -p ~/.config/pip
+echo -e "[install]\nextra-index-url = https://termux-user-repository.github.io/pypi/" > ~/.config/pip/pip.conf
+
 pip install cython wheel setuptools python-dotenv
 mkdir -p $A2 $A1/.gyp
 
@@ -21,15 +25,16 @@ if [ ! -f "$A1/android-ndk.7z" ]; then
     wget -O $A1/android-ndk.7z https://github.com/lzhiyong/termux-ndk/releases/download/android-ndk/android-ndk-r29-aarch64.7z
 fi
 
+# DescoMPRESION
 7z x -aoa $A1/android-ndk.7z -o$A2
 
-# borrar zip 
+# Borrar comprimido
 # rm $A1/android-ndk.7z
 
-
+# Mover carpeta descomprimida
 mv $A2/android-ndk-* $A3
 export ANDROID_NDK_HOME=$A3
 export PATH=$ANDROID_NDK_HOME:$PATH
 
+# Crear gypi 
 echo "{ \"variables\": { \"android_ndk_path\": \"$ANDROID_NDK_HOME\" } }" > $A1/.gyp/include.gypi
-
