@@ -84,6 +84,35 @@ Para reutilizar solo escribe tnokill en cualquier momento.
 
 </br>
 
+## AppManager Fast
+
+Script that automates permissions ADB to AppManager
+[AppManager]()
+
+<details> <summary>🌅More Info️</summary> <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/886262b3-8bbd-4a4d-8810-3a6af68d54d1" /> </tr> </table> 
+
+### Run Script:
+```
+U1="https://raw.githubusercontent.com/weskerty/TermuxGod/refs/heads/main/Scripts/AutoScripts/appm.sh";D1="$HOME/scripts";N1="$(basename "$U1")";B1="${N1%.*}";A1="t$(echo "$B1" | tr '[:upper:]' '[:lower:]')";F1="$D1/$N1";mkdir -p "$D1"&&curl -fsSL "$U1" -o "$F1"&&chmod +x "$F1"&&grep -qxF "alias $A1='sh $F1'" "$HOME/.zshrc"||echo "alias $A1='sh $F1'" >>"$HOME/.zshrc"&&sh "$F1"
+
+```
+
+Enable Developer Options 
+
+Enable ADB WiFi
+
+Pair New ADB Device on Code
+
+Add Port Pair 
+
+Add Port ADB WiFi
+
+Para reutilizar solo escribe tappm en cualquier momento.
+
+</details>
+
+</br>
+
 ## SSHX - X11 forwarding
 
 Script to retransmit an external server into Termux:11. See External Server (not local server)
